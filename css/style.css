@@ -1,0 +1,15 @@
+#board {
+    height:400px;
+    width:300px;
+}
+
+.square {
+    background-color: white;
+    border: 1px solid grey;
+    height: calc(100%/3 - 2px);
+    width: calc(100%/3 - 2px);
+    font-size: 75px;
+    float: left;
+}
+
+
