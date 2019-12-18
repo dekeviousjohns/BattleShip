@@ -9,7 +9,7 @@ var reset = document.getElementById('reset')
 
 var win = false;
 var moves = []
-for (let i = 0; i <= 8; i++) {
+for (let i = 0; i <= 19; i++) {
     var square = document.createElement('button');
     square.classList.add('square');
     square.setAttribute('data-value', i) ;
@@ -21,7 +21,7 @@ for (let i = 0; i <= 8; i++) {
     })
 }
 
-var AI = Math.floor(Math.random() * 9);
+var AI = Math.floor(Math.random() * 20);
 
 var player = true;
 function display(block) {

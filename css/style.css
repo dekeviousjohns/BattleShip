@@ -1,13 +1,28 @@
 #board {
     height:400px;
     width:300px;
+    margin-left: 40%;
+}
+
+h1 {
+    font-family: 'Six Caps', sans-serif;
+    margin-left: 46%;
+    font-size: 60px;
+    color: red;
+}
+
+#reset{
+    font-family: 'Six Caps', sans-serif;
+    font-style: none;
+    font-size: 60px;
+    margin-left: 48%;
 }
 
 .square {
-    background-color: white;
+    background-color: blue;
     border: 1px solid grey;
-    height: calc(100%/3 - 2px);
-    width: calc(100%/3 - 2px);
+    height: calc(100%/5 - 2px);
+    width: calc(100%/5 - 2px);
     font-size: 75px;
     float: left;
 }
